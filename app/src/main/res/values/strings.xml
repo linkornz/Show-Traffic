@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Show Traffic</string>
+    <string name="app_name">Traffic Sign</string>
+
+    <string name="title_main">ป้ายจราจร</string>
+
 </resources>
