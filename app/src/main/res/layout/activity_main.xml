@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="egat.kampeepan.showtraffic.MainActivity">
+    tools:context="egat.kampeepan.showtraffic.MainActivity"
+    android:background="@drawable/bg28">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,11 +17,25 @@
         android:id="@+id/textView"
         android:textSize="@dimen/h1"
         android:textStyle="bold"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text" />
 
     <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutme"
+        android:id="@+id/button"
+        android:textSize="@dimen/h1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold" />
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button" />
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/button"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
 </RelativeLayout>
